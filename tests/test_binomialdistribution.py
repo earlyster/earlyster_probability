@@ -1,5 +1,5 @@
 import unittest
-from Binomialdistribution import Binomial
+from earlyster_probability.Binomialdistribution import Binomial
 
 class TestBinomialClass(unittest.TestCase):
     def setUp(self):

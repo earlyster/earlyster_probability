@@ -1,7 +1,7 @@
 # Unit tests to check your solution
 
 import unittest
-from Gaussiandistribution import Gaussian
+from earlyster_probability.Gaussiandistribution import Gaussian
 
 class TestGaussianClass(unittest.TestCase):
     def setUp(self):
