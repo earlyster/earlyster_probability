@@ -25,7 +25,7 @@ setup(
     description="A Binomial and Gaussian Distribution Probability Library used in udacity class",
     long_description=read("README.rst"),
 
-    packages=find_packages(exclude=('tests',)),
+    packages=['earlyster_probability'],
     zip_safe=False,
     install_requires=[],
 

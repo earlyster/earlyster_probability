@@ -1,10 +1,13 @@
 import unittest
+import os, sys
 from earlyster_probability.Binomialdistribution import Binomial
+
 
 class TestBinomialClass(unittest.TestCase):
     def setUp(self):
         self.binomial = Binomial(0.4, 20)
-        self.binomial.read_data_file('numbers_binomial.txt')
+        self.file = os.path.join(sys.path[0], 'numbers_binomial.txt')
+        self.binomial.read_data_file(self.file)
 
     def test_initialization(self):
         self.assertEqual(self.binomial.p, 0.4, 'p value incorrect')
