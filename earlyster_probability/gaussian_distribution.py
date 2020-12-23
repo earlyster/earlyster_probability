@@ -59,8 +59,7 @@ class Gaussian(Distribution):
 
         return self.stdev
 
-
-    def read_data_file(self, file_path, sample=True):
+    def read_data_file_and_calc(self, file_path, sample=True):
         """Method to read in data from a txt file. The txt file should have
         one number (float) per line. The numbers are stored in the data
         attribute.

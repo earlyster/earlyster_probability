@@ -1,7 +1,6 @@
 """Binomial Distribution Module
 Contains Binomial Class
 """
-from earlyster_probability.gaussian_distribution import Gaussian
 import math
 import matplotlib.pyplot as plt
 from .general_distribution import Distribution
@@ -138,7 +137,7 @@ class Binomial(Distribution):
 
         return x_number, y_number
 
-    def __add__(self, other: Gaussian):
+    def __add__(self, other):
         """Function to add together two Binomial distributions with equal p
 
         Args:
