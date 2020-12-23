@@ -27,17 +27,17 @@ class TestGaussianDistribution(unittest.TestCase):
 
     def test_meancalculation(self):
         """Test Mean Calculation"""
-        self.gaussian.read_data_file(self.file, True)
+        self.gaussian.read_data_file_and_calc(self.file, True)
         self.assertEqual(self.gaussian.calculate_mean(),\
          sum(self.gaussian.data) / float(len(self.gaussian.data)),
             'calculated mean not as expected')
 
     def test_stdevcalculation(self):
         """Test standard deviation calculation"""
-        self.gaussian.read_data_file(self.file, True)
+        self.gaussian.read_data_file_and_calc(self.file, True)
         self.assertEqual(round(self.gaussian.stdev, 2), 92.87,
             'sample standard deviation incorrect')
-        self.gaussian.read_data_file(self.file, False)
+        self.gaussian.read_data_file_and_calc(self.file, False)
         self.assertEqual(round(self.gaussian.stdev, 2), 88.55,
             'population standard deviation incorrect')
 
