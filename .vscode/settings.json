@@ -1,3 +1,6 @@
 {
-    "restructuredtext.confPath": ""
+    "restructuredtext.confPath": "",
+    "python.pythonPath": "/Users/earlyster/Library/Mobile Documents/com~apple~CloudDocs/udacity-ml-nanodegree/earlyster_probability/.venv/bin/python3",
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true
 }

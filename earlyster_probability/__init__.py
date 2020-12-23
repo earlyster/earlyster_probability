@@ -4,5 +4,5 @@ __version__ = '0.1.0'
 __author__ = 'Justin Early <earlyster@gmail.com>'
 __all__ = []
 
-from .Gaussiandistribution import Gaussian
-from .Binomialdistribution import Binomial
+from .gaussian_distribution import Gaussian
+from .binomial_distribution import Binomial
