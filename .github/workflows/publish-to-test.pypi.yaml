@@ -24,7 +24,7 @@ jobs:
           python -m pytest tests/
       - name: pylint
         run: |
-           pylint **/*.py
+           python -m pylint **/*.py
       - name: Build a binary wheel and a source tarball
         run: >-
           python -m
