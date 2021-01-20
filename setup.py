@@ -16,7 +16,7 @@ def read(filename):
 
 setup(
     name="earlyster_probability",
-    version="0.1.0",
+    version="0.1.1",
     url="https://github.com/earlyster/earlyster_probability",
     license='MIT',
 

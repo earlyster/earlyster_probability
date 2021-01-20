@@ -1,6 +1,6 @@
 """earlyster_probability - Binomial and Gaussian Distribution Probability Library"""
 
-__version__ = '0.1.0'
+__version__ = '0.1.1'
 __author__ = 'Justin Early <earlyster@gmail.com>'
 __all__ = []
 
