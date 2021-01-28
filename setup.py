@@ -16,7 +16,7 @@ def read(filename):
 
 setup(
     name="earlyster_probability",
-    version="0.1.1",
+    version="0.1.2",
     url="https://github.com/earlyster/earlyster_probability",
     license='MIT',
 
@@ -24,7 +24,7 @@ setup(
     author_email="earlyster@gmail.com",
 
     description="A Binomial and Gaussian Distribution Probability Library",
-    long_description=read("README.rst"),
+    long_description=read("README.md"),
 
     packages=['earlyster_probability'],
     zip_safe=False,
